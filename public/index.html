@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Polák Weby – moderní weby pro živnostníky a malé podniky | Ostrava</title>
-  <meta name="description" content="Tvořím moderní, rychlé a přehledné weby pro živnostníky a malé podniky v Ostravě a okolí. Web-vizitka od 5 900 Kč, web pro podnik od 11 900 Kč. Nezávazná konzultace zdarma.">
-  <link rel="canonical" href="https://ondrej-polak-weby-web.polakondrej14.workers.dev/">
+  <title>Fajne weby – tvorba webových stránek Ostrava | Weby pro živnostníky</title>
+  <meta name="description" content="Tvorba webových stránek v Ostravě a okolí pro živnostníky a malé podniky. Web na míru od 5 900 Kč, první konzultace zdarma. Fajne weby.">
+  <link rel="canonical" href="https://fajne-weby.polakondrej14.workers.dev/">
   <meta name="theme-color" content="#4F46E5">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
   <meta property="og:type" content="website">
   <meta property="og:locale" content="cs_CZ">
-  <meta property="og:site_name" content="Polák Weby">
-  <meta property="og:title" content="Polák Weby – moderní weby pro živnostníky a malé podniky">
-  <meta property="og:description" content="Rychle, srozumitelně a za férovou cenu. Prohlédněte si ukázky a nezávazně se ozvěte.">
-  <meta property="og:url" content="https://ondrej-polak-weby-web.polakondrej14.workers.dev/">
-  <meta property="og:image" content="https://ondrej-polak-weby-web.polakondrej14.workers.dev/images/og.jpg">
+  <meta property="og:site_name" content="Fajne weby">
+  <meta property="og:title" content="Fajne weby – tvorba webových stránek Ostrava">
+  <meta property="og:description" content="Webové stránky pro živnostníky a malé podniky z Ostravy, Moravy a Slezska. Web na míru od 5 900 Kč – rychle, srozumitelně a za férovou cenu.">
+  <meta property="og:url" content="https://fajne-weby.polakondrej14.workers.dev/">
+  <meta property="og:image" content="https://fajne-weby.polakondrej14.workers.dev/images/og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
@@ -31,18 +31,22 @@
     "@graph": [
       {
         "@type": "ProfessionalService",
-        "@id": "https://ondrej-polak-weby-web.polakondrej14.workers.dev/#sluzba",
-        "name": "Polák Weby",
-        "description": "Tvorba moderních webů pro živnostníky a malé podniky.",
-        "url": "https://ondrej-polak-weby-web.polakondrej14.workers.dev/",
-        "image": "https://ondrej-polak-weby-web.polakondrej14.workers.dev/images/og.jpg",
+        "@id": "https://fajne-weby.polakondrej14.workers.dev/#sluzba",
+        "name": "Fajne weby",
+        "alternateName": "Fajne weby – tvorba webových stránek Ostrava",
+        "description": "Tvorba webových stránek na míru pro živnostníky a malé podniky v Ostravě, Moravskoslezském kraji a okolí.",
+        "url": "https://fajne-weby.polakondrej14.workers.dev/",
+        "image": "https://fajne-weby.polakondrej14.workers.dev/images/og.jpg",
         "email": "polakondrej14@gmail.com",
         "telephone": "+420799797334",
         "taxID": "29589673",
         "priceRange": "od 5 900 Kč",
-        "areaServed": "Ostrava a okolí",
+        "areaServed": [
+          { "@type": "City", "name": "Ostrava" },
+          { "@type": "AdministrativeArea", "name": "Moravskoslezský kraj" }
+        ],
         "address": { "@type": "PostalAddress", "addressLocality": "Ostrava", "addressCountry": "CZ" },
-        "founder": { "@id": "https://ondrej-polak-weby-web.polakondrej14.workers.dev/#osoba" },
+        "founder": { "@type": "Person", "@id": "https://fajne-weby.polakondrej14.workers.dev/#osoba", "name": "Ondřej Polák" },
         "makesOffer": [
           { "@type": "Offer", "name": "Web-vizitka", "description": "Cena od 5 900 Kč, přesná cena je stanovena předem.", "priceSpecification": { "@type": "PriceSpecification", "minPrice": 5900, "priceCurrency": "CZK" } },
           { "@type": "Offer", "name": "Web pro podnik", "description": "Cena od 11 900 Kč, přesná cena je stanovena předem.", "priceSpecification": { "@type": "PriceSpecification", "minPrice": 11900, "priceCurrency": "CZK" } },
@@ -51,14 +55,15 @@
       },
       {
         "@type": "Person",
-        "@id": "https://ondrej-polak-weby-web.polakondrej14.workers.dev/#osoba",
+        "@id": "https://fajne-weby.polakondrej14.workers.dev/#osoba",
         "name": "Ondřej Polák",
-        "jobTitle": "Tvůrce webových stránek",
-        "image": "https://ondrej-polak-weby-web.polakondrej14.workers.dev/images/ondrej-polak.webp",
+        "jobTitle": "Tvůrce webových stránek, zakladatel Fajne weby",
+        "worksFor": { "@id": "https://fajne-weby.polakondrej14.workers.dev/#sluzba" },
+        "image": "https://fajne-weby.polakondrej14.workers.dev/images/ondrej-polak.webp",
         "email": "polakondrej14@gmail.com",
         "telephone": "+420799797334",
         "address": { "@type": "PostalAddress", "addressLocality": "Ostrava", "addressCountry": "CZ" },
-        "url": "https://ondrej-polak-weby-web.polakondrej14.workers.dev/"
+        "url": "https://fajne-weby.polakondrej14.workers.dev/"
       }
     ]
   }
@@ -69,9 +74,9 @@
 
   <header class="header" id="top">
     <div class="container header__inner">
-      <a class="logo" href="#top" aria-label="Polák Weby – na začátek stránky">
-        <span class="logo__mark" aria-hidden="true">OP</span>
-        <span class="logo__text">Polák Weby</span>
+      <a class="logo" href="#top" aria-label="Fajne weby – na začátek stránky">
+        <span class="logo__mark" aria-hidden="true"><svg viewBox="0 0 64 64"><rect x="13" y="15" width="38" height="34" rx="7"/><path d="M13 25h38"/><path d="M24 35.5q8 7 16 0"/></svg></span>
+        <span class="logo__text">Fajne <span class="logo__accent">weby</span></span>
       </a>
       <nav class="nav" id="nav" aria-label="Hlavní menu">
         <ul class="nav__list">
@@ -97,9 +102,9 @@
       <div class="hero__bg" aria-hidden="true"></div>
       <div class="container hero__inner">
         <div class="hero__text">
-          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Weby pro živnostníky a malé podniky · Ostrava a okolí</p>
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Tvorba webových stránek Ostrava</p>
           <h1>Moderní web pro váš podnik. <span class="grad">Rychle, srozumitelně a&nbsp;za&nbsp;férovou cenu.</span></h1>
-          <p class="hero__lead">Kavárna, kadeřnictví, řemeslo, penzion nebo trenérská praxe – připravím vám web, který dobře vypadá na mobilu, lidé na něm hned najdou, co potřebují, a snadno se vám ozvou. Vy se nemusíte starat o nic technického.</p>
+          <p class="hero__lead">Dělám webové stránky pro živnostníky a malé podniky z Ostravy i celé Moravy a Slezska. Kavárna, kadeřnictví, řemeslo, penzion nebo trenérská praxe – připravím vám web na míru, který dobře vypadá na mobilu, lidé na něm hned najdou, co potřebují, a snadno se vám ozvou. Vy se nemusíte starat o nic technického.</p>
           <div class="hero__actions">
             <a class="btn btn--primary btn--lg" href="#ukazky">Prohlédnout ukázky</a>
             <a class="btn btn--ghost btn--lg" href="#kontakt">Nezávazně poptat</a>
@@ -201,12 +206,13 @@
       <div class="container">
         <div class="section__head reveal">
           <p class="kicker">Co dostanete</p>
-          <h2>Všechno, co dobrý web potřebuje. Bez starostí.</h2>
+          <h2>Web, který je fajne. Pro vás i pro vaše zákazníky.</h2>
+          <p class="section__lead">Všechno, co dobrý web potřebuje – a vy se nemusíte o nic starat.</p>
         </div>
         <ul class="features">
           <li class="feature reveal">
             <span class="feature__icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m12 3-1.9 5.8L4 10l5 3.6L7.2 20 12 16.4l4.8 3.6-1.8-6.4L20 10l-6.1-1.2z"/></svg></span>
-            <h3>Moderní design na míru</h3>
+            <h3>Moderní web na míru</h3>
             <p>Žádná šablona „pro všechny“. Barvy, fotky a texty ladím k vašemu podniku, aby web působil jako vy.</p>
           </li>
           <li class="feature reveal">
@@ -337,8 +343,8 @@
         </div>
         <div class="about__text reveal">
           <p class="kicker">O mně</p>
-          <h2>Dobrý den, jsem Ondřej Polák</h2>
-          <p>Jsem začínající tvůrce webů z Ostravy. Rozhodl jsem se pomáhat hlavně živnostníkům a malým podnikům, kteří web nemají, nebo ho mají zastaralý – a přitom nechtějí platit desítky tisíc ani řešit technické detaily.</p>
+          <h2>Za Fajne weby stojím já, Ondřej Polák</h2>
+          <p>Dobrý den, jsem začínající tvůrce webů z Ostravy a tvorba webu je to, čemu se pod značkou Fajne weby věnuji. Rozhodl jsem se pomáhat hlavně živnostníkům a malým podnikům, kteří web nemají, nebo ho mají zastaralý – a přitom nechtějí platit desítky tisíc ani řešit technické detaily.</p>
           <p>Weby dělám pomocí moderních nástrojů včetně umělé inteligence. Díky tomu je mám hotové rychle a můžu je nabídnout za dostupnou cenu. Každý web ale osobně navrhuji, kontroluji a ladím, aby seděl přesně vašemu podniku.</p>
           <p>Záleží mi na tom, abyste se se mnou cítili v pohodě. Mluvím normálně, bez odborných výrazů, a když něčemu nebudete rozumět, rád to vysvětlím. Klidně se potkáme osobně u kávy.</p>
           <a class="btn btn--primary" href="#kontakt">Pojďme se domluvit</a>
@@ -402,7 +408,7 @@
               <span class="contact__icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span>
               <span><small>Telefon</small>+420 799 797 334</span>
             </a>
-            <p class="contact__area"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg> Působím v Ostravě a okolí, online kdekoliv v Česku.</p>
+            <p class="contact__area"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg> Tvorba webu Ostrava a okolí – osobně po celé Moravě a Slezsku, online kdekoliv v Česku.</p>
           </div>
 
           <form class="form reveal" id="form" novalidate>
@@ -463,12 +469,13 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <a class="logo logo--light" href="#top"><span class="logo__mark" aria-hidden="true">OP</span><span class="logo__text">Polák Weby</span></a>
-        <p>Moderní weby pro živnostníky a malé podniky.</p>
+        <a class="logo logo--light" href="#top" aria-label="Fajne weby – na začátek stránky"><span class="logo__mark" aria-hidden="true"><svg viewBox="0 0 64 64"><rect x="13" y="15" width="38" height="34" rx="7"/><path d="M13 25h38"/><path d="M24 35.5q8 7 16 0"/></svg></span><span class="logo__text">Fajne <span class="logo__accent">weby</span></span></a>
+        <p class="footer__slogan">Web, který je fajne. Pro vás i pro vaše zákazníky.</p>
+        <p>Tvorba webových stránek Ostrava – weby na míru pro živnostníky a malé podniky z Moravy a Slezska.</p>
       </div>
       <div class="footer__col">
         <h2>Kontakt</h2>
-        <p>Ondřej Polák<br>IČO: 29589673<br>Nejsem plátce DPH</p>
+        <p>Provozovatel: Ondřej Polák, IČO: 29589673, nejsem plátce DPH</p>
         <p><a href="mailto:polakondrej14@gmail.com">polakondrej14@gmail.com</a><br><a href="tel:+420799797334">+420 799 797 334</a></p>
       </div>
       <nav class="footer__col" aria-label="Rychlé odkazy">
@@ -483,7 +490,7 @@
       </nav>
     </div>
     <div class="container footer__bottom">
-      <p>© <span id="year">2026</span> Ondřej Polák</p>
+      <p>© <span id="year">2026</span> Fajne weby</p>
       <a href="#top">Zpět nahoru ↑</a>
     </div>
   </footer>

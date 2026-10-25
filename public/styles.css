@@ -272,3 +272,10 @@ svg { width: 1.2em; height: 1.2em; fill: none; stroke: currentColor; stroke-widt
   .btn:hover, .work:hover, .contact__big:hover { transform: none; }
   .work:hover .work__img img { transform: none; }
 }
+
+/* Logo Fajne weby */
+.logo__mark svg { width: 26px; height: 26px; stroke: #fff; stroke-width: 5; }
+.logo__accent { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.logo--light .logo__accent { background: none; color: #A5B4FC; }
+.footer__slogan { color: #fff; font: 700 1.05rem/1.4 var(--font-head); margin-top: 18px; }
+.footer__brand .footer__slogan + p { margin-top: 0; }

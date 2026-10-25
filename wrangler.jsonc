@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "ondrej-polak-weby-web",
+  "name": "fajne-weby",
   "compatibility_date": "2026-10-25",
   "assets": {
     "directory": "./public"

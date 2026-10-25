@@ -91,7 +91,7 @@
     if (invalid.length) { invalid[0].focus(); return; }
 
     const d = Object.fromEntries(new FormData(form));
-    const subject = `Poptávka webu – ${d.co} (${d.jmeno.trim()})`;
+    const subject = `Poptávka webu (Fajne weby) – ${d.co} – ${d.jmeno.trim()}`;
     const body = [
       `Jméno: ${d.jmeno.trim()}`,
       `E-mail: ${d.email.trim()}`,
@@ -100,7 +100,9 @@
       `Co potřebuji: ${d.co}`,
       '',
       'Zpráva:',
-      d.zprava.trim()
+      d.zprava.trim(),
+      '',
+      '— Odesláno z formuláře na webu Fajne weby'
     ].join('\n');
     window.location.href = `mailto:${EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     status.textContent = 'Otevírám váš e-mailový program… Pokud se neotevřel, napište mi prosím přímo na ' + EMAIL + '.';

@@ -1,9 +1,14 @@
-# Polák Weby – portfolio web
+# Fajne weby – portfolio web
 
-Skutečný portfolio web Ondřeje Poláka (Ostrava, IČO 29589673, neplátce DPH). Nabízí tvorbu moderních webů pro živnostníky a malé podniky.
+Skutečný portfolio web značky **Fajne weby** – tvorba webových stránek Ostrava. Provozovatel: Ondřej Polák (Ostrava, IČO 29589673, neplátce DPH). Nabízí tvorbu webů na míru pro živnostníky a malé podniky z Ostravy, Moravy a Slezska.
 
-- Živě: https://ondrej-polak-weby-web.polakondrej14.workers.dev/
-- GitHub: https://github.com/polakondrej14-del/ondrej-polak-weby-web
+- Hlavní hledaná fráze: „Tvorba webových stránek Ostrava“; doplňkové: „webové stránky pro živnostníky“, „tvorba webu Ostrava“, „web na míru“, „Morava a Slezsko“.
+- Tón: přátelský, spisovná čeština; slovo „fajne“ jen v 1–2 nadpisech/sloganech (slogan: „Web, který je fajne. Pro vás i pro vaše zákazníky.“).
+- V patičce musí zůstat: „Provozovatel: Ondřej Polák, IČO: 29589673, nejsem plátce DPH“. Sekce O mně zůstává osobní s Ondřejovým jménem.
+- Logo: symbol okna prohlížeče s úsměvem v indigovém čtverci + text „Fajne weby“ (stejný symbol je ve ).
+
+- Živě: https://fajne-weby.polakondrej14.workers.dev/ (Worker `fajne-weby`; starý Worker `ondrej-polak-weby-web` je k smazání v Cloudflare dashboardu)
+- GitHub: https://github.com/polakondrej14-del/fajne-weby-web
 - Hosting: Cloudflare Workers (statické assety), konfigurace ve `wrangler.jsonc`
 
 ## Struktura
