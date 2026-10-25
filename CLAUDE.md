@@ -5,7 +5,7 @@ Skutečný portfolio web značky **Fajne weby** – tvorba webových stránek Os
 - Hlavní hledaná fráze: „Tvorba webových stránek Ostrava“; doplňkové: „webové stránky pro živnostníky“, „tvorba webu Ostrava“, „web na míru“, „Morava a Slezsko“.
 - Tón: přátelský, spisovná čeština; slovo „fajne“ jen v 1–2 nadpisech/sloganech (slogan: „Web, který je fajne. Pro vás i pro vaše zákazníky.“).
 - V patičce musí zůstat: „Provozovatel: Ondřej Polák, IČO: 29589673, nejsem plátce DPH“. Sekce O mně zůstává osobní s Ondřejovým jménem.
-- Logo: symbol okna prohlížeče s úsměvem v indigovém čtverci + text „Fajne weby“ (stejný symbol je ve ).
+- Logo: symbol okna prohlížeče s úsměvem v royal blue čtverci + text „Fajne weby“ (stejný symbol je ve `public/favicon.svg`).
 
 - Živě: https://fajne-weby.polakondrej14.workers.dev/ (Worker `fajne-weby`; starý Worker `ondrej-polak-weby-web` je k smazání v Cloudflare dashboardu)
 - GitHub: https://github.com/polakondrej14-del/fajne-weby-web
@@ -20,7 +20,7 @@ Skutečný portfolio web značky **Fajne weby** – tvorba webových stránek Os
 - `public/favicon.svg`
 - `foto.jpg` – originál fotky (není v `public/`, nezveřejňuje se jako asset)
 
-Žádný build krok, čisté HTML/CSS/JS. Design: pozadí #FBFBF9, text #1A1A2E, akcent indigo #4F46E5 → fialová #7C3AED, fonty Plus Jakarta Sans (nadpisy) a Inter (text). Texty česky, vykat návštěvníkovi, nic si nevymýšlet (žádné smyšlené reference, roky praxe ani počty klientů).
+Žádný build krok, čisté HTML/CSS/JS. Design (inspirovaný webem Fit s Tomášem): tmavé pozadí #08080C / #0F0F16, text #F4F5FA, šedý text #A9AFC2, royal blue #2F5BFF (plochy, tlačítka), #5B7CFF (velké nadpisy), #8FA6FF (malý modrý text na tmavém – kvůli kontrastu nikdy nepoužívat #2F5BFF pro drobný text na černé). Fonty: Bebas Neue (nadpisy, velkými písmeny) a Inter (text). Prvky: mřížka v pozadí, šikmý modrý pás s obory (marquee), číslované sekce 01–07, celomodrá sekce „Jak to probíhá“, velký nápis FAJNE WEBY v patičce. Animace respektují prefers-reduced-motion. Texty česky, vykat návštěvníkovi, nic si nevymýšlet (žádné smyšlené reference, roky praxe ani počty klientů).
 
 ## Pracovní postup
 
