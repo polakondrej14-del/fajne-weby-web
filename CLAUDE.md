@@ -42,3 +42,13 @@ Pomocné nástroje (Playwright na screenshoty, sharp na zmenšení obrázků) in
 6. Commit, push, `npx wrangler deploy` a kontrola živého webu.
 
 Web kavárny Novákova zahrada (repo `uzrnka-web`) do portfolia nepatří.
+
+Penzion U Tří lip (obec u Telče, Vysočina) zatím v portfoliu chybí: k 25. 10. 2026 neexistovala jeho složka, GitHub repozitář ani živý Worker (`u-tri-lip-web.polakondrej14.workers.dev` vrací 404). Až bude web hotový a zveřejněný, přidej ho podle postupu výše se štítkem „Penzion · Vysočina“ (pokoje s cenami, galerie, poptávka pobytu s výpočtem orientační ceny). Pak bude karet 5 – zkontroluj mřížku na mobilu i desktopu.
+
+## Fotka
+
+`public/images/ondrej-polak.webp` (sekce O mně) i `public/images/og.jpg` vznikly z Ondřejovy vlastní fotky `foto.jpg` (ořez 4:5, šířka 800 px, WebP). Na webu nesmí být nikdy stocková fotka cizího člověka podepsaná jeho jménem. Až vložím do složky foto.jpg, nahraď placeholder mou skutečnou fotkou – tzn. když se `foto.jpg` změní (nebo by fotka chyběla a byl použit placeholder s iniciálami „OP“), vygeneruj z ní znovu `ondrej-polak.webp` a OG obrázek.
+
+## Ceny – jednotné formulace
+
+Všechny ceny jsou „od …“. Nikde nepsat „konečné ceny“. Platí: přesnou cenu řeknu předem (po první schůzce) a už se nezmění; jiná může být jen tehdy, když si klient později sám řekne o něco navíc. Totéž držet v hero, ceníku, FAQ, meta description i ve strukturovaných datech (`priceSpecification.minPrice`).

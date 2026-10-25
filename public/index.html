@@ -44,9 +44,9 @@
         "address": { "@type": "PostalAddress", "addressLocality": "Ostrava", "addressCountry": "CZ" },
         "founder": { "@id": "https://ondrej-polak-weby-web.polakondrej14.workers.dev/#osoba" },
         "makesOffer": [
-          { "@type": "Offer", "name": "Web-vizitka", "price": "5900", "priceCurrency": "CZK" },
-          { "@type": "Offer", "name": "Web pro podnik", "price": "11900", "priceCurrency": "CZK" },
-          { "@type": "Offer", "name": "Správa webu", "price": "390", "priceCurrency": "CZK", "description": "měsíčně" }
+          { "@type": "Offer", "name": "Web-vizitka", "description": "Cena od 5 900 Kč, přesná cena je stanovena předem.", "priceSpecification": { "@type": "PriceSpecification", "minPrice": 5900, "priceCurrency": "CZK" } },
+          { "@type": "Offer", "name": "Web pro podnik", "description": "Cena od 11 900 Kč, přesná cena je stanovena předem.", "priceSpecification": { "@type": "PriceSpecification", "minPrice": 11900, "priceCurrency": "CZK" } },
+          { "@type": "Offer", "name": "Správa webu", "description": "Cena od 390 Kč měsíčně.", "priceSpecification": { "@type": "UnitPriceSpecification", "minPrice": 390, "priceCurrency": "CZK", "unitText": "měsíc" } }
         ]
       },
       {
@@ -106,7 +106,7 @@
           </div>
           <ul class="hero__facts">
             <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg> Web-vizitka od 5 900 Kč</li>
-            <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg> Pevná cena předem</li>
+            <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg> Přesná cena předem</li>
             <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg> První schůzka zdarma</li>
           </ul>
         </div>
@@ -249,7 +249,7 @@
         <ol class="timeline">
           <li class="step reveal">
             <span class="step__num">1</span>
-            <div><h3>Nezávazná schůzka nebo hovor</h3><p>Probereme váš podnik, zákazníky a co má web umět. Řeknu vám rovnou cenu a termín. Nic za to neplatíte.</p></div>
+            <div><h3>Nezávazná schůzka nebo hovor</h3><p>Probereme váš podnik, zákazníky a co má web umět. Hned potom vám řeknu přesnou cenu a termín. Nic za to neplatíte.</p></div>
           </li>
           <li class="step reveal">
             <span class="step__num">2</span>
@@ -277,7 +277,7 @@
         <div class="section__head reveal">
           <p class="kicker">Ceník</p>
           <h2>Jasné ceny bez skrytých poplatků</h2>
-          <p class="section__lead">Přesnou cenu vám řeknu předem podle toho, co váš web potřebuje. Uvedené ceny jsou konečné.</p>
+          <p class="section__lead">Ceny níže jsou výchozí. Přesnou cenu vám řeknu předem podle toho, co váš web potřebuje – a už se nezmění.</p>
         </div>
         <div class="pricing">
           <article class="plan reveal">
@@ -356,7 +356,7 @@
         <div class="faq reveal">
           <div class="faq__item">
             <h3><button type="button" aria-expanded="false" aria-controls="faq1" id="faq1-btn">Kolik web stojí?<span class="faq__icon" aria-hidden="true"></span></button></h3>
-            <div class="faq__panel" id="faq1" role="region" aria-labelledby="faq1-btn" hidden><p>Jednoduchá web-vizitka začíná na 5 900 Kč, větší web pro podnik na 11 900 Kč. Přesnou cenu vám řeknu po první schůzce, ještě než cokoliv začnu dělat – a ta už se nemění. K tomu si platíte jen doménu (obvykle 200–300 Kč za rok) a případně správu webu od 390 Kč měsíčně.</p></div>
+            <div class="faq__panel" id="faq1" role="region" aria-labelledby="faq1-btn" hidden><p>Jednoduchá web-vizitka začíná na 5 900 Kč, větší web pro podnik na 11 900 Kč. Přesnou cenu vám řeknu po první schůzce, ještě než cokoliv začnu dělat – a ta už se nezmění. Jiná by mohla být jen tehdy, kdybyste si později sami řekli o něco navíc a odsouhlasili to. K tomu si platíte jen doménu (obvykle 200–300 Kč za rok) a případně správu webu od 390 Kč měsíčně.</p></div>
           </div>
           <div class="faq__item">
             <h3><button type="button" aria-expanded="false" aria-controls="faq2" id="faq2-btn">Jak dlouho to trvá?<span class="faq__icon" aria-hidden="true"></span></button></h3>
