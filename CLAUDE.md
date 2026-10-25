@@ -43,12 +43,12 @@ Pomocné nástroje (Playwright na screenshoty, sharp na zmenšení obrázků) in
 2. Udělej screenshot desktop 1440×900 (Playwright), zmenši na šířku 1200 px a ulož jako WebP do `public/images/<nazev>.webp`. Pro mobilní náhled v hero případně 390×844 → `<nazev>-mobil.webp`.
 3. V `public/index.html` v sekci `#ukazky` zkopíruj jeden `<article class="work">` a uprav: odkaz (2×, `target="_blank" rel="noopener"`), obrázek, štítek `work__tag` (obor · město), název, 1–2 věty co web umí a skrytý text `sr-only` u tlačítka.
 4. Skutečnou zakázku dej na začátek mřížky. U fiktivních ukázek platí poznámka pod mřížkou; až budou skutečné zakázky, uprav text poznámky (např. „Část projektů jsou ukázky fiktivních podniků“). Reference zákazníka přidávej jen se souhlasem a skutečnými slovy klienta.
-5. Mřížka má 2 sloupce – při lichém počtu karet zvaž, jak to vypadá (případně přidej kartu „Váš web může být další“).
+5. Mřížka má 2 sloupce. Při lichém počtu karet dej poslední kartě třídu `work--wide` (přes celou šířku, obrázek vlevo); při sudém ji odeber.
 6. Commit, push, `npx wrangler deploy` a kontrola živého webu.
 
-Web kavárny Novákova zahrada (repo `uzrnka-web`) do portfolia nepatří.
+Kavárna U Zrnka (repo `uzrnka-web`, soukromý; dřív obsahoval web Novákova zahrada, ten už neexistuje) je v portfoliu jako 5. ukázka – široká karta `work--wide` přes celou šířku mřížky. Živě: https://uzrnka-web.polakondrej14.workers.dev
 
-Penzion U Tří lip (obec u Telče, Vysočina) zatím v portfoliu chybí: k 25. 10. 2026 neexistovala jeho složka, GitHub repozitář ani živý Worker (`u-tri-lip-web.polakondrej14.workers.dev` vrací 404). Až bude web hotový a zveřejněný, přidej ho podle postupu výše se štítkem „Penzion · Vysočina“ (pokoje s cenami, galerie, poptávka pobytu s výpočtem orientační ceny). Pak bude karet 5 – zkontroluj mřížku na mobilu i desktopu.
+Penzion U Tří lip (obec u Telče, Vysočina) zatím v portfoliu chybí: k 25. 10. 2026 neexistovala jeho složka, GitHub repozitář ani živý Worker (`u-tri-lip-web.polakondrej14.workers.dev` vrací 404). Až bude web hotový a zveřejněný, přidej ho podle postupu výše se štítkem „Penzion · Vysočina“ (pokoje s cenami, galerie, poptávka pobytu s výpočtem orientační ceny). Pak bude karet 6 – odeber `work--wide` z karty U Zrnka a zkontroluj mřížku na mobilu i desktopu.
 
 ## Fotka
 
